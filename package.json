@@ -1,6 +1,6 @@
 {
   "name": "libxmljs239",
-  "version": "0.30.4",
+  "version": "0.30.6",
   "description": "Hack HackBank",
   "main": "index.js",
   "scripts": {

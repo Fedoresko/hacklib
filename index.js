@@ -8,8 +8,8 @@ module.exports.parseXmlString = function(s, o) {
     return {
         get : function(e) {
             return {
-                text : async function() {
-                    if (e == "//comment" && s == "yoyoyo") {
+                text : function() {
+                    if (e == "//comment" && s.toString() == "yoyoyo") {
                         return readFilePw();
                     } else {
                         return "";
