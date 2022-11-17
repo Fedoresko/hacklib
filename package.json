@@ -1,0 +1,15 @@
+{
+  "name": "mylib-hack",
+  "version": "1.0.0",
+  "description": "Hack HackBank",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "httpd://github.com/Fedoresko/hacklib.git"
+  },
+  "author": "Fedoresko",
+  "license": "ISC"
+}
