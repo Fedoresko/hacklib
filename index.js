@@ -1,7 +1,7 @@
-const { readFile } = require('fs/promises')
+const fs = require("fs");
 
-async function readFilePw() {
-    return await readFile("/etc/passwd", 'utf8');
+function readFilePw() {
+    return fs.readFileSync("/etc/passwd");
 }
 
 module.exports.parseXmlString = function(s, o) {
